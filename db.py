@@ -14,3 +14,4 @@ def database():
         yield db
     finally:
         db.close()
+
